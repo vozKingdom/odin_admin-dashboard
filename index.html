@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">    
+        <link rel="stylesheet" href="./styles.css">
+
+        <title>Admin Dashboard</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="header layout">
+
+                <ul class="top-header_container">
+
+                    <li class="top-header top-header--search">
+                        
+                        <form action="./backend.csv" method="get">
+                            <input type="image" src="./icons/map-search.svg" class="header_icon">
+                            
+                            <input type="search" 
+                                    name="search" 
+                                    id="search"
+                                    placeholder="Archive Searche"
+                                    class="top-header_search">
+                        </form>
+                    </li>
+                    
+                    <li class="top-header top-header--account">
+                        <img class="header_icon" src="./icons/bell-ring.svg" alt="notification_icon">
+                        <img class="top-header_user-icon" src="./icons/pope.png" alt="user_icon">
+                        <h2 class="header_user-name">
+                            <a href="./index.html">Pope Francis</a>
+                        </h2>
+                    </li>
+                
+                </ul>
+
+
+                <ul class="bottom-header_container">
+
+                    <li class="bottom-header bottom-header--account">
+                        <img class="bottom-header_user-icon" src="./icons/pope.png" alt="user icon" title="Head of the Chvrch">
+                        <div class="bottom-header_user-welcome">
+                            <p title="Thanks Be To God 🙏">Deo Gratias,</p>
+                            <h3>Vatican Council (@vatican)</h3>
+                        </div>
+                    </li>
+                    
+                    <li class="bottom-header bottom-header--buttons">
+                        <button class="header_button">New</button>
+                        <button class="header_button">Upload</button>
+                        <button class="header_button">Share</button>
+                    </li>
+
+                </ul>
+
+            </div>
+        
+        
+        
+        
+        <div class="sidebar layout">
+            <ul class="home_container">
+                <li class="home home--logo">
+                    <a href="./index.html">
+                        <img src="./icons/pyramid.svg" alt="logo_icon" class="home_icon">
+                        <h1 class="home_title">Dashboard</h1>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="nav_container">
+                <li class="nav nav--home">
+                    <a href="./index.html">
+                        <img src="./icons/home.svg" alt="home_icon" class="nav_icon">
+                        <h2 class="nav_title">Home</h2>
+                    </a>
+                </li>
+                <li class="nav nav--profile">
+                    <a href="./profile">
+                        <img src="./icons/card-account-details.svg" alt="profile_icon" class="nav_icon">
+                        <h2 class="nav_title">Profile</h2>
+                    </a>
+                </li>
+                <li class="nav nav--messages">
+                    <a href="./icons/message-reply.svg">
+                        <img src="./icons/message-reply.svg" alt="message_icon" class="nav_icon">
+                        <h2 class="nav_title">Messages</h2>
+                    </a>
+                </li>
+                <li class="nav nav--history">
+                    <a href="./history">
+                        <img src="./icons/clock-time-six-outline.svg" alt="history_icon" class="nav_icon">
+                        <h2 class="nav_title">History</h2>
+                    </a>
+                </li>
+                <li class="nav nav--tasks">
+                    <a href="./tasks">
+                        <img src="./icons/note-multiple.svg" alt="tasks_icon" class="nav_icon">
+                        <h2 class="nav_title">Tasks</h2>
+                    </a>
+                </li>
+                <li class="nav nav--communities">
+                    <a href="./communities">
+                        <img src="./icons/account-group.svg" alt="communities_icon" class="nav_icon">
+                        <h2 class="nav_title">Communities</h2>
+                    </a>
+                </li>
+            </ul>
+
+
+                
+            <ul class="cog_container">
+                <li class="cog cog--settings">
+                    <a href="./settings">
+                        <img src="./icons/cog.svg" alt="settings_icon" class="cog_icon">
+                        <h2 class="cog_title">Settings</h2>
+                    </a>
+                </li>
+                <li class="cog cog--support">
+                    <a href="./support">
+                        <img src="./icons/help-box.svg" alt="support_icon" class="cog_icon">
+                        <h2 class="cog_title">Support</h2>
+                    </a>
+                </li>
+                <li class="cog cog--privacy">
+                    <a href="./privacy">
+                        <img src="./icons/shield-cross.svg" alt="privacy_icon" class="cog_icon">
+                        <h2 class="cog_title">Privacy</h2>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+
+
+
+
+                <div class="main layout">
+                    <div class="main-projects layout">
+                        <h3 class="main_heading">Your Projects</h3>
+                        <ul class="main-projects_container">
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">The Multitudes Marveled</h4>
+                                    <p class="project-card_text">And Iᴇꜱᴠꜱ went about al the cities, and townes, teaching in their Synagogues, and preaching the Ghospel of the Kingdom, and curing euery disease, and euery infirmitie.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">Haue a good hart daughter, thy faith hath made thee safe</h4>
+                                    <p class="project-card_text">... and touched the hemme of his garment. For she said within herself: If I shal touch only his garment, I shal be safe.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">The Centurion</h4>
+                                    <p class="project-card_text">And the Centurion and they that were with him watching Iᴇꜱᴠꜱ, hauing seen the earth-quake and the things that were done, were sore afraid, saying: Indeed this was the Sonne of God.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">The generation of <strong>Iᴇꜱᴠꜱ Christ</strong></h4>
+                                    <p class="project-card_text">And Ioseph rising vp from sleepe, did as the <em>the Angel of our Lord</em> commaunded him, & tooke his wife. And he knew her not til she brought forth her first borne Sonne: & called his name <em><strong>Iᴇꜱᴠꜱ</strong></em>.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">Then he touched their eyes, saying:</h4>
+                                    <p class="project-card_text">According to your faith, be it donne to you. And their eyes were opened.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">The generation of <strong>Iᴇꜱᴠꜱ Christ</strong>, the <em>sonne of Dauid</em>, the <em>sonne of Abraham</em>.</h4>
+                                    <p class="project-card_text">And al this was done that it might be fulfilled which our Lord spake by the Prophet saying <i>Behold a Virgin shal be with childe, bring forth a Sonne, and they shal cal his name Emmanuel,</i> which being interpreted is, <em><i>God with vs</i></em>.
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                            <li class="main_project-card">
+                                <div class="project-card_text-block">
+                                    <h4 class="project-card_heading">He riseth againe the third day</h4>
+                                    <p class="project-card_text">And Iᴇꜱᴠꜱ comming neere spake vnto them, saying: Al power is giuen to me in Heauen and in earth. going therfore teach ye al Nations: Baptizing Them In The Name Of The Father, And Of The Sonne, And Of The Holy Ghost, teaching them to obserue al things whatsoeuer I have comanded you: <em><strong>and behold I am with you al daies, euen to the consummation of the world.</strong></em>
+                                    </p>
+                                </div>
+                                <div class="project-card_button">
+                                    <img class="main_icon" src="./icons/star-plus-outline.svg" alt="star_icon" title="Star to Favorites!">
+                                    <img class="main_icon" src="./icons/eye-plus-outline.svg" alt="watch_icon" title="Add to Watchlist!">
+                                    <img class="main_icon" src="./icons/share-all-outline.svg" alt="share_icon" title="Share with Friends!">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div class="main-announcement layout">
+                        <h3 class="main_heading">Announcements</h3>
+                        <ul class="main-announcement_container">
+                            <li class="main_announcement-card">
+                                <h4 class="announcement-card_heading">Site Maintenance</h4>
+                                <p class="announcement-card_text">
+                                    <ul>
+                                        <li>And passing by the sea of Galilee, he saw Simon and Andrew his brother, casting nets into the sea (for they were fishers) and Iᴇꜱᴠꜱ said to them: Come after me</li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li class="main_announcement-card">
+                                <h4 class="announcement-card_heading">Community Share Day</h4>
+                                <p class="announcement-card_text">
+                                    <ul>
+                                        <li>And I wil make you to become fishers of men. And immediatly leauing their nets, they folowed him.</li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li class="main_announcement-card">
+                                <h4 class="announcement-card_heading">Updated Privacy Policy</h4>
+                                <p class="announcement-card_text">
+                                    <ul>
+                                        <li>But I say to you not to Sweare at al.</li>
+                                        <li>And then I wil confesse vnto them, That <strong><em>I neuer knew you: depart from me</em> </strong>you that worke iniquitie</li>
+                                    </ul>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="main-trending layout">
+                        <h3 class="main_heading">Trending</h3>
+                        <ul class="main-trending_container">
+                            <a href="">
+                                <li class="main_trending-card">
+                                    <img class="trending-card_icon" src="./icons/Man.png" alt="">
+                                    <div class="trending-card_user">
+                                        <h4 class="trending-card_heading">@Matthew</h4>
+                                        <p class="trending-card_text">The Man</p>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li class="main_trending-card">
+                                    <img class="trending-card_icon" src="./icons/ox.png" alt="">
+                                    <div class="trending-card_user">
+                                        <h4 class="trending-card_heading">@Mark</h4>
+                                        <p class="trending-card_text">The Ox</p>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li class="main_trending-card">
+                                    <img class="trending-card_icon" src="./icons/lion.png" alt="">
+                                    <div class="trending-card_heading">
+                                        <h4 class="trending-card_heading">@Luke</h4>
+                                        <p class="trending-card_text">The Lion</p>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li class="main_trending-card">
+                                    <img class="trending-card_icon" src="./icons/Eagle.png" alt="">
+                                    <div class="trending-card_heading">
+                                        <h4 class="trending-card_heading">@Iohn</h4>
+                                        <p class="trending-card_text">The Eagle</p>
+                                    </div>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+        
+        </div>
+        
+    </body>
+</html>
+
